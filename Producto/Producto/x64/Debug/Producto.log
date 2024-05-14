@@ -1,0 +1,6 @@
+﻿  Producto.cpp
+  Productos.cpp
+C:\Users\JCOSSIO\source\repos\Producto\Producto\Productos.cpp(10,1): warning C4326: el tipo de valor devuelto de 'main' debe ser 'int' en lugar de 'void'
+  ABMProducto.cpp
+  Generando código...
+  Producto.vcxproj -> C:\Users\JCOSSIO\source\repos\Producto\x64\Debug\Producto.exe
