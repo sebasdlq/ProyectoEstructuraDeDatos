@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JCOSSIO\\source\\repos\\Producto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A11B09B2-9B44-49D0-9E6B-397E92420974}|Producto\\Producto.vcxproj|C:\\Users\\JCOSSIO\\source\\repos\\Producto\\Producto\\Productos.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A11B09B2-9B44-49D0-9E6B-397E92420974}|Producto\\Producto.vcxproj|solutionrelative:Producto\\Productos.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A11B09B2-9B44-49D0-9E6B-397E92420974}|Producto\\Producto.vcxproj|C:\\Users\\JCOSSIO\\source\\repos\\Producto\\Producto\\ABMProducto.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A11B09B2-9B44-49D0-9E6B-397E92420974}|Producto\\Producto.vcxproj|solutionrelative:Producto\\ABMProducto.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A11B09B2-9B44-49D0-9E6B-397E92420974}|Producto\\Producto.vcxproj|C:\\Users\\JCOSSIO\\source\\repos\\Producto\\Producto\\Producto.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A11B09B2-9B44-49D0-9E6B-397E92420974}|Producto\\Producto.vcxproj|solutionrelative:Producto\\Producto.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Productos.cpp",
+              "DocumentMoniker": "C:\\Users\\JCOSSIO\\source\\repos\\Producto\\Producto\\Productos.cpp",
+              "RelativeDocumentMoniker": "Producto\\Productos.cpp",
+              "ToolTip": "C:\\Users\\JCOSSIO\\source\\repos\\Producto\\Producto\\Productos.cpp",
+              "RelativeToolTip": "Producto\\Productos.cpp",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-14T17:52:25.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ABMProducto.cpp",
+              "DocumentMoniker": "C:\\Users\\JCOSSIO\\source\\repos\\Producto\\Producto\\ABMProducto.cpp",
+              "RelativeDocumentMoniker": "Producto\\ABMProducto.cpp",
+              "ToolTip": "C:\\Users\\JCOSSIO\\source\\repos\\Producto\\Producto\\ABMProducto.cpp",
+              "RelativeToolTip": "Producto\\ABMProducto.cpp",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-14T17:51:37.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Producto.cpp",
+              "DocumentMoniker": "C:\\Users\\JCOSSIO\\source\\repos\\Producto\\Producto\\Producto.cpp",
+              "RelativeDocumentMoniker": "Producto\\Producto.cpp",
+              "ToolTip": "C:\\Users\\JCOSSIO\\source\\repos\\Producto\\Producto\\Producto.cpp",
+              "RelativeToolTip": "Producto\\Producto.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-14T17:51:20.135Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
