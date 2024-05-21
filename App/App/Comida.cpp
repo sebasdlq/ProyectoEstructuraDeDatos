@@ -28,6 +28,14 @@ Comida::Comida(int _id, int _restaurante, string _nombre, string _descripcion, f
 	ant = nullptr;
 }
 
+Comida::~Comida()
+{
+	cout << "Comida " << id << " eliminada\n";
+	sig = nullptr;
+	ant = nullptr;
+}
+
+
 void Comida::setNombre(string _nombre)
 {
 	nombre = _nombre;

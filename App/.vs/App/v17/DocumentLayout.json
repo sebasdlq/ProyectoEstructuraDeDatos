@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\sebas\\Upsa\\ProyectoEstructuraDeDatos\\App\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|C:\\Users\\HP\\Desktop\\sebas\\Upsa\\ProyectoEstructuraDeDatos\\App\\App\\ListaDeComidas.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|solutionrelative:App\\ListaDeComidas.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|C:\\Users\\HP\\Desktop\\sebas\\Upsa\\ProyectoEstructuraDeDatos\\App\\App\\ListaDeComidas.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|solutionrelative:App\\ListaDeComidas.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -15,15 +19,8 @@
       "RelativeMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|solutionrelative:App\\Comida.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.39.33519\\INCLUDE\\XSTRING||{3B902123-F8A7-4915-9F01-361F908088D0}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|C:\\Users\\HP\\Desktop\\sebas\\Upsa\\ProyectoEstructuraDeDatos\\App\\App\\App.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|solutionrelative:App\\App.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|C:\\Users\\HP\\Desktop\\sebas\\Upsa\\ProyectoEstructuraDeDatos\\App\\App\\ListaDeComidas.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|solutionrelative:App\\ListaDeComidas.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,64 +35,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "xstring",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xstring",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xstring",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xstring",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xstring",
-              "ViewState": "AQIAADgAAAAAAAAAAAAhwEIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-05-20T05:11:23.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Comida.cpp",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\sebas\\Upsa\\ProyectoEstructuraDeDatos\\App\\App\\Comida.cpp",
               "RelativeDocumentMoniker": "App\\Comida.cpp",
               "ToolTip": "C:\\Users\\HP\\Desktop\\sebas\\Upsa\\ProyectoEstructuraDeDatos\\App\\App\\Comida.cpp",
               "RelativeToolTip": "App\\Comida.cpp",
-              "ViewState": "AQIAACQAAAAAAAAAAAAhwDAAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-19T15:48:21.07Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Comida.h",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\sebas\\Upsa\\ProyectoEstructuraDeDatos\\App\\App\\Comida.h",
               "RelativeDocumentMoniker": "App\\Comida.h",
               "ToolTip": "C:\\Users\\HP\\Desktop\\sebas\\Upsa\\ProyectoEstructuraDeDatos\\App\\App\\Comida.h",
               "RelativeToolTip": "App\\Comida.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAABAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-05-19T15:42:52.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ListaDeComidas.cpp",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\sebas\\Upsa\\ProyectoEstructuraDeDatos\\App\\App\\ListaDeComidas.cpp",
               "RelativeDocumentMoniker": "App\\ListaDeComidas.cpp",
               "ToolTip": "C:\\Users\\HP\\Desktop\\sebas\\Upsa\\ProyectoEstructuraDeDatos\\App\\App\\ListaDeComidas.cpp",
               "RelativeToolTip": "App\\ListaDeComidas.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHoAAAAcAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAAEEAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-19T06:01:29.605Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "ListaDeComidas.h",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\sebas\\Upsa\\ProyectoEstructuraDeDatos\\App\\App\\ListaDeComidas.h",
               "RelativeDocumentMoniker": "App\\ListaDeComidas.h",
               "ToolTip": "C:\\Users\\HP\\Desktop\\sebas\\Upsa\\ProyectoEstructuraDeDatos\\App\\App\\ListaDeComidas.h",
               "RelativeToolTip": "App\\ListaDeComidas.h",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAABkAAAAFAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABIAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-05-19T05:44:14.682Z",
               "EditorCaption": ""
@@ -108,7 +92,7 @@
               "RelativeDocumentMoniker": "App\\App.cpp",
               "ToolTip": "C:\\Users\\HP\\Desktop\\sebas\\Upsa\\ProyectoEstructuraDeDatos\\App\\App\\App.cpp",
               "RelativeToolTip": "App\\App.cpp",
-              "ViewState": "AQIAABAAAAAAAAAAAAAhwBsAAAAAAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAACAAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-19T05:11:24.555Z",
               "EditorCaption": ""

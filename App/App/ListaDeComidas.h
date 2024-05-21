@@ -23,6 +23,8 @@ public:
 
 	//Manejo De Archivos
 	void guardar(Comida* guardar);
+	void guardar(Comida* guardar, ofstream &ofs);
 	void LeerLista();
+	void EliminarDelRegistro();
 };
 

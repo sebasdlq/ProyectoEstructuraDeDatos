@@ -18,6 +18,7 @@ public:
 
 	Comida(int _id, int _restaurante);
 	Comida(int _id, int _restaurante, string _nombre, string _descripcion, float _precio);
+	~Comida();
 	//set
 	void setNombre(string _nombre);
 	void setDescripcion(string _descripcion);
@@ -29,6 +30,7 @@ public:
 	string getDescripcion();
 	float getPrecio();
 	int getByteSize();
+	//Archivos
 	bool leerUnaComida(ifstream &adm);
 };
 

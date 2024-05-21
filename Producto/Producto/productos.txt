@@ -1,4 +1,0 @@
-Nombre: 
-Descripción: 
-Precio: -858993460
-

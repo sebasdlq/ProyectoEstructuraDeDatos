@@ -17,7 +17,7 @@ ListaDeComidas::ListaDeComidas(string _fileName)
 	LeerLista();
 
 	if (final != nullptr) {
-		lastId = final->getId();
+		lastId = final->getId() + 1;
 	}
 	else {
 		lastId = 0;
@@ -28,7 +28,7 @@ ListaDeComidas::ListaDeComidas(string _fileName)
 
 void ListaDeComidas::Push(int _restaurante, string _nombre, string _descripcion, float _precio, bool guardarFile)
 {
-	Comida* newComida = new Comida(++lastId, _restaurante, _nombre, _descripcion, _precio);
+	Comida* newComida = new Comida(lastId++, _restaurante, _nombre, _descripcion, _precio);
 	if (frente == nullptr) {
 		frente = newComida;
 		final = newComida;
@@ -63,21 +63,22 @@ int ListaDeComidas::eliminar(int id)
 	while (actual != nullptr) {
 		if (actual->getId() == id) {
 			//Eliminar Registro
-			if (actual != frente) {
-				actual->ant->sig = actual->sig;
-			}
-			else
-			{
+			if (actual == frente) {
 				frente = actual->sig;
+				actual->sig = nullptr;
 			}
-			if (actual != final) {
-				actual->sig->ant = actual->ant;
-			}
-			else {
+			else if (actual == final)
+			{
 				final = actual->ant;
+				actual->ant->sig = nullptr;
+				actual->ant = nullptr;
+			}else {
+				actual->sig->ant = actual->ant;
+				actual->ant->sig = actual->sig;
+				actual->ant = nullptr;
+				actual->sig = nullptr;
 			}
-
-			delete actual;
+			EliminarDelRegistro();
 			return 0;
 		}
 		actual = actual->sig;
@@ -113,6 +114,20 @@ void ListaDeComidas::guardar(Comida* guardar)
 	adm.write(reinterpret_cast<char*>(&precio), sizeof(float));
 }
 
+void ListaDeComidas::guardar(Comida* guardar, ofstream& ofs)
+{
+	int id = guardar->getId();
+	int restautante = guardar->getRestaurante();
+	string nombre = guardar->getNombre();
+	string descripcion = guardar->getDescripcion();
+	float precio = guardar->getPrecio();
+	ofs.write(reinterpret_cast<char*>(&id), sizeof(int));
+	ofs.write(reinterpret_cast<char*>(&restautante), sizeof(int));
+	ofs.write(reinterpret_cast<char*>(&nombre), sizeof(string));
+	ofs.write(reinterpret_cast<char*>(&descripcion), sizeof(string));
+	ofs.write(reinterpret_cast<char*>(&precio), sizeof(float));
+}
+
 void ListaDeComidas::LeerLista() {
 
 	ifstream adm;
@@ -122,5 +137,18 @@ void ListaDeComidas::LeerLista() {
 		Push(actual, false);
 		actual = new Comida(0, 0);
 	}
+	actual = NULL;
 	adm.close();
+}
+
+void ListaDeComidas::EliminarDelRegistro()
+{
+	//Elimina reescribiendo el archivo sin el registro eliminado
+	ofstream ofs(fileName, ios::trunc | ios::binary | ios::out);
+	Comida* actual = frente;
+	while (actual != nullptr)
+	{
+		guardar(actual, ofs);
+		actual = actual->sig;
+	}
 }
