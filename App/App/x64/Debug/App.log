@@ -1,2 +1,61 @@
-﻿  ListaDeComidas.cpp
+﻿  ABMClientes.cpp
+C:\Users\HP\Desktop\sebas\Upsa\ProyectoEstructuraDeDatos\App\App\Clientes.h(123,13): warning C4267: 'return': conversión de 'size_t' a 'unsigned short'; posible pérdida de datos
+  (compilando archivo de origen "ABMClientes.cpp")
+  
+C:\Users\HP\Desktop\sebas\Upsa\ProyectoEstructuraDeDatos\App\App\Clientes.h(134,35): warning C4267: 'inicializando': conversión de 'size_t' a 'unsigned short'; posible pérdida de datos
+  (compilando archivo de origen "ABMClientes.cpp")
+  
+C:\Users\HP\Desktop\sebas\Upsa\ProyectoEstructuraDeDatos\App\App\Clientes.h(138,37): warning C4267: 'inicializando': conversión de 'size_t' a 'unsigned short'; posible pérdida de datos
+  (compilando archivo de origen "ABMClientes.cpp")
+  
+C:\Users\HP\Desktop\sebas\Upsa\ProyectoEstructuraDeDatos\App\App\Clientes.h(142,36): warning C4267: 'inicializando': conversión de 'size_t' a 'unsigned short'; posible pérdida de datos
+  (compilando archivo de origen "ABMClientes.cpp")
+  
+C:\Users\HP\Desktop\sebas\Upsa\ProyectoEstructuraDeDatos\App\App\Clientes.h(146,35): warning C4267: 'inicializando': conversión de 'size_t' a 'unsigned short'; posible pérdida de datos
+  (compilando archivo de origen "ABMClientes.cpp")
+  
+C:\Users\HP\Desktop\sebas\Upsa\ProyectoEstructuraDeDatos\App\App\ABMClientes.h(193,33): warning C4244: '=': conversión de 'std::streamoff' a 'unsigned int'; posible pérdida de datos
+  (compilando archivo de origen "ABMClientes.cpp")
+  
+  App.cpp
+C:\Users\HP\Desktop\sebas\Upsa\ProyectoEstructuraDeDatos\App\App\Clientes.h(123,13): warning C4267: 'return': conversión de 'size_t' a 'unsigned short'; posible pérdida de datos
+  (compilando archivo de origen "App.cpp")
+  
+C:\Users\HP\Desktop\sebas\Upsa\ProyectoEstructuraDeDatos\App\App\Clientes.h(134,35): warning C4267: 'inicializando': conversión de 'size_t' a 'unsigned short'; posible pérdida de datos
+  (compilando archivo de origen "App.cpp")
+  
+C:\Users\HP\Desktop\sebas\Upsa\ProyectoEstructuraDeDatos\App\App\Clientes.h(138,37): warning C4267: 'inicializando': conversión de 'size_t' a 'unsigned short'; posible pérdida de datos
+  (compilando archivo de origen "App.cpp")
+  
+C:\Users\HP\Desktop\sebas\Upsa\ProyectoEstructuraDeDatos\App\App\Clientes.h(142,36): warning C4267: 'inicializando': conversión de 'size_t' a 'unsigned short'; posible pérdida de datos
+  (compilando archivo de origen "App.cpp")
+  
+C:\Users\HP\Desktop\sebas\Upsa\ProyectoEstructuraDeDatos\App\App\Clientes.h(146,35): warning C4267: 'inicializando': conversión de 'size_t' a 'unsigned short'; posible pérdida de datos
+  (compilando archivo de origen "App.cpp")
+  
+C:\Users\HP\Desktop\sebas\Upsa\ProyectoEstructuraDeDatos\App\App\ABMClientes.h(193,33): warning C4244: '=': conversión de 'std::streamoff' a 'unsigned int'; posible pérdida de datos
+  (compilando archivo de origen "App.cpp")
+  
+  Cliente.cpp
+C:\Users\HP\Desktop\sebas\Upsa\ProyectoEstructuraDeDatos\App\App\Cliente.cpp(156,96): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+  Clientes.cpp
+C:\Users\HP\Desktop\sebas\Upsa\ProyectoEstructuraDeDatos\App\App\Clientes.h(123,13): warning C4267: 'return': conversión de 'size_t' a 'unsigned short'; posible pérdida de datos
+  (compilando archivo de origen "Clientes.cpp")
+  
+C:\Users\HP\Desktop\sebas\Upsa\ProyectoEstructuraDeDatos\App\App\Clientes.h(134,35): warning C4267: 'inicializando': conversión de 'size_t' a 'unsigned short'; posible pérdida de datos
+  (compilando archivo de origen "Clientes.cpp")
+  
+C:\Users\HP\Desktop\sebas\Upsa\ProyectoEstructuraDeDatos\App\App\Clientes.h(138,37): warning C4267: 'inicializando': conversión de 'size_t' a 'unsigned short'; posible pérdida de datos
+  (compilando archivo de origen "Clientes.cpp")
+  
+C:\Users\HP\Desktop\sebas\Upsa\ProyectoEstructuraDeDatos\App\App\Clientes.h(142,36): warning C4267: 'inicializando': conversión de 'size_t' a 'unsigned short'; posible pérdida de datos
+  (compilando archivo de origen "Clientes.cpp")
+  
+C:\Users\HP\Desktop\sebas\Upsa\ProyectoEstructuraDeDatos\App\App\Clientes.h(146,35): warning C4267: 'inicializando': conversión de 'size_t' a 'unsigned short'; posible pérdida de datos
+  (compilando archivo de origen "Clientes.cpp")
+  
+  Ingcliente.cpp
+  utilitarios.cpp
+  Generando código...
+  LINK : no se encontró C:\Users\HP\Desktop\sebas\Upsa\ProyectoEstructuraDeDatos\App\x64\Debug\App.exe o no lo generó el último vínculo incremental; ejecutando vínculo completo
   App.vcxproj -> C:\Users\HP\Desktop\sebas\Upsa\ProyectoEstructuraDeDatos\App\x64\Debug\App.exe
