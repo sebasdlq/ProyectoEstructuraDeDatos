@@ -134,6 +134,7 @@
     <ClCompile Include="Comida.cpp" />
     <ClCompile Include="Ingcliente.cpp" />
     <ClCompile Include="ListaDeComidas.cpp" />
+    <ClCompile Include="Sesion.cpp" />
     <ClCompile Include="utilitarios.cpp" />
   </ItemGroup>
   <ItemGroup>

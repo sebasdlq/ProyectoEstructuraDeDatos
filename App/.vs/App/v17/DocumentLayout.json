@@ -1,22 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\sebas\\Upsa\\ProyectoEstructuraDeDatos\\App\\",
+  "WorkspaceRootPath": "C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|C:\\Users\\HP\\Desktop\\sebas\\Upsa\\ProyectoEstructuraDeDatos\\App\\App\\App.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|solutionrelative:App\\App.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\Sesion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|solutionrelative:App\\Sesion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|C:\\Users\\HP\\Desktop\\sebas\\Upsa\\ProyectoEstructuraDeDatos\\App\\App\\utilitarios.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|solutionrelative:App\\utilitarios.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\Comida.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|solutionrelative:App\\Comida.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|C:\\Users\\HP\\Desktop\\sebas\\Upsa\\ProyectoEstructuraDeDatos\\App\\App\\Clientes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\ListaDeComidas.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|solutionrelative:App\\ListaDeComidas.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\Ingcliente.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|solutionrelative:App\\Ingcliente.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\Cliente.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|solutionrelative:App\\Cliente.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\utilitarios.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|solutionrelative:App\\utilitarios.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\Clientes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|solutionrelative:App\\Clientes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|C:\\Users\\HP\\Desktop\\sebas\\Upsa\\ProyectoEstructuraDeDatos\\App\\App\\ABMClientes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\ABMClientes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|solutionrelative:App\\ABMClientes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\App.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|solutionrelative:App\\App.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\Comida.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|solutionrelative:App\\Comida.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\Cliente.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|solutionrelative:App\\Cliente.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\ABMClientes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|solutionrelative:App\\ABMClientes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\Clientes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|solutionrelative:App\\Clientes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\Ingcliente.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|solutionrelative:App\\Ingcliente.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\utilitarios.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A6407CE8-B0A4-4BCC-A87F-7009FB96ADBA}|App\\App.vcxproj|solutionrelative:App\\utilitarios.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +70,201 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ABMClientes.h",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\sebas\\Upsa\\ProyectoEstructuraDeDatos\\App\\App\\ABMClientes.h",
-              "RelativeDocumentMoniker": "App\\ABMClientes.h",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\sebas\\Upsa\\ProyectoEstructuraDeDatos\\App\\App\\ABMClientes.h",
-              "RelativeToolTip": "App\\ABMClientes.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-23T14:58:50.228Z",
+              "DocumentIndex": 0,
+              "Title": "Sesion.cpp",
+              "DocumentMoniker": "C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\Sesion.cpp",
+              "RelativeDocumentMoniker": "App\\Sesion.cpp",
+              "ToolTip": "C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\Sesion.cpp",
+              "RelativeToolTip": "App\\Sesion.cpp",
+              "ViewState": "AQIAAEoAAAAAAAAAAABQvWEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-25T02:05:23.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.cpp",
+              "DocumentMoniker": "C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\App.cpp",
+              "RelativeDocumentMoniker": "App\\App.cpp",
+              "ToolTip": "C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\App.cpp",
+              "RelativeToolTip": "App\\App.cpp",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAAADQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-19T05:11:24.555Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ListaDeComidas.cpp",
+              "DocumentMoniker": "C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\ListaDeComidas.cpp",
+              "RelativeDocumentMoniker": "App\\ListaDeComidas.cpp",
+              "ToolTip": "C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\ListaDeComidas.cpp",
+              "RelativeToolTip": "App\\ListaDeComidas.cpp",
+              "ViewState": "AQIAADcAAAAAMzMzMzMrwBcAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-25T13:15:55.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Comida.cpp",
+              "DocumentMoniker": "C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\Comida.cpp",
+              "RelativeDocumentMoniker": "App\\Comida.cpp",
+              "ToolTip": "C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\Comida.cpp",
+              "RelativeToolTip": "App\\Comida.cpp",
+              "ViewState": "AQIAACEAAAAAAAAAAABAPRYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-25T02:48:53.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ABMClientes.cpp",
+              "DocumentMoniker": "C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\ABMClientes.cpp",
+              "RelativeDocumentMoniker": "App\\ABMClientes.cpp",
+              "ToolTip": "C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\ABMClientes.cpp",
+              "RelativeToolTip": "App\\ABMClientes.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-24T13:10:00.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Clientes.h",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\sebas\\Upsa\\ProyectoEstructuraDeDatos\\App\\App\\Clientes.h",
+              "DocumentMoniker": "C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\Clientes.h",
               "RelativeDocumentMoniker": "App\\Clientes.h",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\sebas\\Upsa\\ProyectoEstructuraDeDatos\\App\\App\\Clientes.h",
+              "ToolTip": "C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\Clientes.h",
               "RelativeToolTip": "App\\Clientes.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMMAAAACAAAA",
+              "ViewState": "AQIAALcAAAAAAAAAAAAAAMoAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-05-23T14:58:13.493Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "utilitarios.h",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\sebas\\Upsa\\ProyectoEstructuraDeDatos\\App\\App\\utilitarios.h",
-              "RelativeDocumentMoniker": "App\\utilitarios.h",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\sebas\\Upsa\\ProyectoEstructuraDeDatos\\App\\App\\utilitarios.h",
-              "RelativeToolTip": "App\\utilitarios.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-23T14:56:03.348Z",
+              "DocumentIndex": 5,
+              "Title": "utilitarios.cpp",
+              "DocumentMoniker": "C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\utilitarios.cpp",
+              "RelativeDocumentMoniker": "App\\utilitarios.cpp",
+              "ToolTip": "C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\utilitarios.cpp",
+              "RelativeToolTip": "App\\utilitarios.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-24T13:09:40.185Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "App.cpp",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\sebas\\Upsa\\ProyectoEstructuraDeDatos\\App\\App\\App.cpp",
-              "RelativeDocumentMoniker": "App\\App.cpp",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\sebas\\Upsa\\ProyectoEstructuraDeDatos\\App\\App\\App.cpp",
-              "RelativeToolTip": "App\\App.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "DocumentIndex": 3,
+              "Title": "Ingcliente.cpp",
+              "DocumentMoniker": "C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\Ingcliente.cpp",
+              "RelativeDocumentMoniker": "App\\Ingcliente.cpp",
+              "ToolTip": "C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\Ingcliente.cpp",
+              "RelativeToolTip": "App\\Ingcliente.cpp",
+              "ViewState": "AQIAACoAAAAAAAAAAABQvQAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-19T05:11:24.555Z",
+              "WhenOpened": "2024-05-25T14:30:37.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cliente.cpp",
+              "DocumentMoniker": "C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\Cliente.cpp",
+              "RelativeDocumentMoniker": "App\\Cliente.cpp",
+              "ToolTip": "C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\Cliente.cpp",
+              "RelativeToolTip": "App\\Cliente.cpp",
+              "ViewState": "AQIAAH0AAAAAMzMzMzMrwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-24T13:05:39.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Comida.h",
+              "DocumentMoniker": "C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\Comida.h",
+              "RelativeDocumentMoniker": "App\\Comida.h",
+              "ToolTip": "C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\Comida.h",
+              "RelativeToolTip": "App\\Comida.h",
+              "ViewState": "AQIAABAAAABAMzMzMzMbwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-25T02:49:04.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Cliente.h",
+              "DocumentMoniker": "C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\Cliente.h",
+              "RelativeDocumentMoniker": "App\\Cliente.h",
+              "ToolTip": "C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\Cliente.h",
+              "RelativeToolTip": "App\\Cliente.h",
+              "ViewState": "AQIAAA0AAAAAMzMzMzMLwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-24T14:59:50.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ABMClientes.h",
+              "DocumentMoniker": "C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\ABMClientes.h",
+              "RelativeDocumentMoniker": "App\\ABMClientes.h",
+              "ToolTip": "C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\ABMClientes.h",
+              "RelativeToolTip": "App\\ABMClientes.h",
+              "ViewState": "AQIAAOYAAAAALjMzMzMrwBQAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-23T14:58:50.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Clientes.cpp",
+              "DocumentMoniker": "C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\Clientes.cpp",
+              "RelativeDocumentMoniker": "App\\Clientes.cpp",
+              "ToolTip": "C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\Clientes.cpp",
+              "RelativeToolTip": "App\\Clientes.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-24T15:00:53.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Ingcliente.h",
+              "DocumentMoniker": "C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\Ingcliente.h",
+              "RelativeDocumentMoniker": "App\\Ingcliente.h",
+              "ToolTip": "C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\Ingcliente.h",
+              "RelativeToolTip": "App\\Ingcliente.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-25T14:29:36.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "utilitarios.h",
+              "DocumentMoniker": "C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\utilitarios.h",
+              "RelativeDocumentMoniker": "App\\utilitarios.h",
+              "ToolTip": "C:\\Users\\JCOSSIO\\Desktop\\ProyectoEstructuraDeDatos\\App\\App\\utilitarios.h",
+              "RelativeToolTip": "App\\utilitarios.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-23T14:56:03.348Z",
               "EditorCaption": ""
             }
           ]

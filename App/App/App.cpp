@@ -19,7 +19,7 @@ int validarRango(string accion, unsigned short final) {
         return -1;
     }
     return opcion;
-}
+}   
 
 int main() {
     /*

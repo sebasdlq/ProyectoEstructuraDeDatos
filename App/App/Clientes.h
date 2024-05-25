@@ -30,12 +30,13 @@ private:
     string apellido;
     string celular;
     string correo;
+    string contraseña;
 
 public:
-    Clientes() : identificador(0), estado('A'), nombre(""), apellido(""), celular(""), correo("") {}
+    Clientes() : identificador(0), estado('A'), nombre(""), apellido(""), celular(""), correo(""),contraseña("") {}
 
-    Clientes(unsigned short iden, unsigned char esta, string nomb, string apel, string celu, string corr)
-        : identificador(iden), estado(esta), nombre(nomb), apellido(apel), celular(celu), correo(corr) {}
+    Clientes(unsigned short iden, unsigned char esta, string nomb, string apel, string celu, string corr, string contra)
+        : identificador(iden), estado(esta), nombre(nomb), apellido(apel), celular(celu), correo(corr), contraseña(contra) {}
 
     unsigned short getIdentificador() const { return identificador; }
     void setIdentificador(unsigned short iden) { identificador = iden; }
@@ -55,13 +56,18 @@ public:
     string getCorreo() const { return correo; }
     void setCorreo(string corr) { correo = corr; }
 
-    void setClientes(unsigned short iden, unsigned char esta, string nomb, string apel, string celu, string corr) {
+    string getContraseña() const { return contraseña; }
+    void setCorreo(string contra) { contraseña  = contra; }
+
+    void setClientes(unsigned short iden, unsigned char esta, string nomb, string apel, string celu, string corr, string contra) {
         identificador = iden;
         estado = esta;
         nombre = nomb;
         apellido = apel;
         celular = celu;
         correo = corr;
+        contraseña = contra;
+
     }
 
     void imprimirCliente() const {
@@ -72,6 +78,7 @@ public:
             cout << "Apellido: " << apellido << endl;
             cout << "Celular: " << celular << endl;
             cout << "Correo: " << correo << endl;
+            cout << "contraseña" << contraseña << endl;
         }
     }
 
@@ -108,6 +115,11 @@ public:
             correo.resize(correoSize);
             fentrada.read(&correo[0], correoSize);
 
+            unsigned short contraseñaSize;
+            fentrada.read(reinterpret_cast<char*>(&contraseñaSize), sizeof(contraseñaSize));
+            contraseña.resize(contraseñaSize);
+            fentrada.read(&contraseña[0], contraseñaSize);
+
             if (!fentrada.eof()) {
                 k = true;
             }
@@ -119,8 +131,8 @@ public:
     }
 
     unsigned short getTamBytesRegistro() const {
-        return (sizeof(identificador) + sizeof(estado) + nombre.size() + apellido.size() + celular.size() + correo.size()
-            + (sizeof(identificador) * 5)); // corresponde a [tamano + nombreSize + apellidoSize + celularSize + correoSize]				 
+        return (sizeof(identificador) + sizeof(estado) + nombre.size() + apellido.size() + celular.size() + correo.size()+contraseña.size()
+            + (sizeof(identificador) * 6)); // corresponde a [tamano + nombreSize + apellidoSize + celularSize + correoSize]				 
     }
 
     void guardarArchivo(ofstream& fsalida) const {
@@ -146,6 +158,10 @@ public:
         unsigned short correoSize = correo.size();
         fsalida.write(reinterpret_cast<const char*>(&correoSize), sizeof(correoSize));
         fsalida.write(correo.c_str(), correoSize);
+
+        unsigned short contraseñaSize = contraseña.size();
+        fsalida.write(reinterpret_cast<const char*>(&contraseñaSize), sizeof(contraseñaSize));
+        fsalida.write(contraseña.c_str(), contraseñaSize);
     }
 
     void actualizarMetaData(fstream& fes, unsigned short& total, unsigned short& eliminado) const {
@@ -160,7 +176,7 @@ public:
         bool k = false;
         if (fentrada.is_open()) {
             unsigned short tamano;
-            fentrada.seekg(5, ios::beg); // saltamos la cabezera
+            fentrada.seekg(6, ios::beg); // saltamos la cabezera
             if (fentrada.eof()) return false;
             fentrada.read(reinterpret_cast<char*>(&identificador), sizeof(identificador));
             while (identificador != nroReg)

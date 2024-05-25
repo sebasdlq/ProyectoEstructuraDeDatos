@@ -1,5 +1,5 @@
 #pragma once
-#include "Clientes.h"
+#include "Clientes.h "
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -115,6 +115,7 @@ public:
 		cout << "|" << left << setw(20) << setfill(' ') << cliente->getApellido();
 		cout << "|" << setw(20) << setfill(' ') << cliente->getCelular();
 		cout << "|" << left << setw(32) << setfill(' ') << cliente->getCorreo() << "|" << endl;
+		cout << "|" << left << setw(32) << setfill(' ') << cliente->getContraseña() << "|" << endl;
 	}
 
 	void imprimirLinea(int largo, char caracter) {
@@ -146,7 +147,7 @@ public:
 		reg_total++; //modificamos el contador de registros
 		unsigned short identificador = reg_total;
 		unsigned char estado = 'A';
-		string nombre, apellido, celular, correo;
+		string nombre, apellido, celular, correo,contraseña;
 
 		cout << endl << endl << "Introducir los siguientes datos --->>> :" << endl;
 		fflush(stdin);
@@ -164,8 +165,11 @@ public:
 		cout << "Correo : ";
 		getline(cin, correo);
 
+		cout << "Contraseña :";
+		getline(cin, contraseña);
+
 		cliente = new Clientes();
-		cliente->setClientes(identificador, estado, nombre, apellido, celular, correo);
+		cliente->setClientes(identificador, estado, nombre, apellido, celular, correo,contraseña);
 
 		ofstream fsalida(archivo, ios::out | ios::binary | ios::app);
 
