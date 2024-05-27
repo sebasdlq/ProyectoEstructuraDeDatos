@@ -129,7 +129,6 @@
   <ItemGroup>
     <ClCompile Include="ABMClientes.cpp" />
     <ClCompile Include="App.cpp" />
-    <ClCompile Include="Cliente.cpp" />
     <ClCompile Include="Clientes.cpp" />
     <ClCompile Include="Comida.cpp" />
     <ClCompile Include="Ingcliente.cpp" />
@@ -139,7 +138,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ABMClientes.h" />
-    <ClInclude Include="Cliente.h" />
     <ClInclude Include="Clientes.h" />
     <ClInclude Include="Comida.h" />
     <ClInclude Include="Ingcliente.h" />

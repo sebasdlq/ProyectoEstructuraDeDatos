@@ -115,7 +115,7 @@ public:
 		cout << "|" << left << setw(20) << setfill(' ') << cliente->getApellido();
 		cout << "|" << setw(20) << setfill(' ') << cliente->getCelular();
 		cout << "|" << left << setw(32) << setfill(' ') << cliente->getCorreo() << "|" << endl;
-		cout << "|" << left << setw(32) << setfill(' ') << cliente->getContraseña() << "|" << endl;
+		cout << "|" << left << setw(32) << setfill(' ') << cliente->getContrasena() << "|" << endl;
 	}
 
 	void imprimirLinea(int largo, char caracter) {

@@ -5,6 +5,7 @@
 
 
 using namespace std;
+/*
 
 int validarRango(string accion, unsigned short final) {
     if (final == 0) {
@@ -20,11 +21,14 @@ int validarRango(string accion, unsigned short final) {
     }
     return opcion;
 }   
+*/
 
 int main() {
     /*
     setupConsole(); // setea la consola para Windows a UTF-8
-    cout << "Memoria libre (bytes): " << getFreeMemory() << endl;*/
+    cout << "Memoria libre (bytes): " << getFreeMemory() << endl;
+    */
+    /*
 
     int nroReg;
     ABMClientes* abmClient = new ABMClientes("clientes", 'c');
@@ -93,4 +97,5 @@ int main() {
         }
     } while (opcion != '6');
     return 0;
+    */
 }
