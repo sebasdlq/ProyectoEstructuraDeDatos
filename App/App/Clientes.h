@@ -30,13 +30,13 @@ private:
     string apellido;
     string celular;
     string correo;
-    string contraseña;
+    string contrasena;
 
 public:
-    Clientes() : identificador(0), estado('A'), nombre(""), apellido(""), celular(""), correo(""),contraseña("") {}
+    Clientes() : identificador(0), estado('A'), nombre(""), apellido(""), celular(""), correo(""),contrasena("") {}
 
     Clientes(unsigned short iden, unsigned char esta, string nomb, string apel, string celu, string corr, string contra)
-        : identificador(iden), estado(esta), nombre(nomb), apellido(apel), celular(celu), correo(corr), contraseña(contra) {}
+        : identificador(iden), estado(esta), nombre(nomb), apellido(apel), celular(celu), correo(corr), contrasena(contra) {}
 
     unsigned short getIdentificador() const { return identificador; }
     void setIdentificador(unsigned short iden) { identificador = iden; }
@@ -56,8 +56,8 @@ public:
     string getCorreo() const { return correo; }
     void setCorreo(string corr) { correo = corr; }
 
-    string getContraseña() const { return contraseña; }
-    void setCorreo(string contra) { contraseña  = contra; }
+    string getContrasena() const { return contrasena; }
+    void setContrasena(string contra) { contrasena  = contra; }
 
     void setClientes(unsigned short iden, unsigned char esta, string nomb, string apel, string celu, string corr, string contra) {
         identificador = iden;
@@ -66,7 +66,7 @@ public:
         apellido = apel;
         celular = celu;
         correo = corr;
-        contraseña = contra;
+        contrasena = contra;
 
     }
 
@@ -78,7 +78,7 @@ public:
             cout << "Apellido: " << apellido << endl;
             cout << "Celular: " << celular << endl;
             cout << "Correo: " << correo << endl;
-            cout << "contraseña" << contraseña << endl;
+            cout << "contraseña" << contrasena << endl;
         }
     }
 
@@ -115,10 +115,10 @@ public:
             correo.resize(correoSize);
             fentrada.read(&correo[0], correoSize);
 
-            unsigned short contraseñaSize;
-            fentrada.read(reinterpret_cast<char*>(&contraseñaSize), sizeof(contraseñaSize));
-            contraseña.resize(contraseñaSize);
-            fentrada.read(&contraseña[0], contraseñaSize);
+            unsigned short contrasenaSize;
+            fentrada.read(reinterpret_cast<char*>(&contrasenaSize), sizeof(contrasenaSize));
+            contrasena.resize(contrasenaSize);
+            fentrada.read(&contrasena[0], contrasenaSize);
 
             if (!fentrada.eof()) {
                 k = true;
@@ -131,7 +131,7 @@ public:
     }
 
     unsigned short getTamBytesRegistro() const {
-        return (sizeof(identificador) + sizeof(estado) + nombre.size() + apellido.size() + celular.size() + correo.size()+contraseña.size()
+        return (sizeof(identificador) + sizeof(estado) + nombre.size() + apellido.size() + celular.size() + correo.size()+contrasena.size()
             + (sizeof(identificador) * 6)); // corresponde a [tamano + nombreSize + apellidoSize + celularSize + correoSize]				 
     }
 
@@ -159,9 +159,9 @@ public:
         fsalida.write(reinterpret_cast<const char*>(&correoSize), sizeof(correoSize));
         fsalida.write(correo.c_str(), correoSize);
 
-        unsigned short contraseñaSize = contraseña.size();
-        fsalida.write(reinterpret_cast<const char*>(&contraseñaSize), sizeof(contraseñaSize));
-        fsalida.write(contraseña.c_str(), contraseñaSize);
+        unsigned short contrasenaSize = contrasena.size();
+        fsalida.write(reinterpret_cast<const char*>(&contrasenaSize), sizeof(contrasenaSize));
+        fsalida.write(contrasena.c_str(), contrasenaSize);
     }
 
     void actualizarMetaData(fstream& fes, unsigned short& total, unsigned short& eliminado) const {
@@ -171,7 +171,7 @@ public:
             fes.write(reinterpret_cast<const char*>(&eliminado), sizeof(eliminado));
         }
     }
-
+        
     bool buscar(ifstream& fentrada, int nroReg) {
         bool k = false;
         if (fentrada.is_open()) {
@@ -194,6 +194,7 @@ public:
         }
         return k;
     }
+    bool buscar(ifstream& fentrada, string correo);
 
     bool modificarEstado(fstream& fes, unsigned int posicion, char nuevoEstado) {
         bool k = false;

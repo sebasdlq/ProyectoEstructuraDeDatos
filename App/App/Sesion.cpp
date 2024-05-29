@@ -34,7 +34,7 @@ public:
         fes.seekg(5, ios::beg); 
 
         while (cliente->leerArchivo(fes)) {
-            if (cliente->getNombre() == nombre && cliente->getContraseña() == contraseña) {
+            if (cliente->getNombre() == nombre && cliente->getContrasena() == contraseña) {
                 tipousuario = cliente->getEstado();
                 inicio = true;
                 fes.close();
