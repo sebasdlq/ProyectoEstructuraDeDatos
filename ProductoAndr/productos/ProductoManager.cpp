@@ -7,7 +7,20 @@ ProductoManager::ProductoManager(const string& filename) : filename(filename) {}
 bool ProductoManager::agregarProducto(const Producto& producto) {
     ofstream file(filename, ios::binary | ios::app);
     if (file.is_open()) {
-        file.write(reinterpret_cast<const char*>(&producto), sizeof(Producto));
+        int id = producto.getId();
+        int idEstablecimiento = producto.getIdEstablecimiento();
+        size_t nombreLength = producto.getNombre().size();
+        size_t descripcionLength = producto.getDescripcion().size();
+        double precio = producto.getPrecio();
+
+        file.write(reinterpret_cast<const char*>(&id), sizeof(id));
+        file.write(reinterpret_cast<const char*>(&idEstablecimiento), sizeof(idEstablecimiento));
+        file.write(reinterpret_cast<const char*>(&nombreLength), sizeof(nombreLength));
+        file.write(producto.getNombre().c_str(), nombreLength);
+        file.write(reinterpret_cast<const char*>(&descripcionLength), sizeof(descripcionLength));
+        file.write(producto.getDescripcion().c_str(), descripcionLength);
+        file.write(reinterpret_cast<const char*>(&precio), sizeof(precio));
+
         file.close();
         return true;
     }
@@ -86,11 +99,25 @@ Producto ProductoManager::buscarProductoPorId(int id) {
 vector<Producto> ProductoManager::obtenerTodosProductos() {
     ifstream file(filename, ios::binary);
     vector<Producto> productos;
-    Producto temp;
 
     if (file.is_open()) {
-        while (file.read(reinterpret_cast<char*>(&temp), sizeof(Producto))) {
-            productos.push_back(temp);
+        while (true) {
+            int id, idEstablecimiento;
+            size_t nombreLength, descripcionLength;
+            double precio;
+
+            file.read(reinterpret_cast<char*>(&id), sizeof(id));
+            if (file.eof()) break;
+            file.read(reinterpret_cast<char*>(&idEstablecimiento), sizeof(idEstablecimiento));
+            file.read(reinterpret_cast<char*>(&nombreLength), sizeof(nombreLength));
+            string nombre(nombreLength, ' ');
+            file.read(&nombre[0], nombreLength);
+            file.read(reinterpret_cast<char*>(&descripcionLength), sizeof(descripcionLength));
+            string descripcion(descripcionLength, ' ');
+            file.read(&descripcion[0], descripcionLength);
+            file.read(reinterpret_cast<char*>(&precio), sizeof(precio));
+
+            productos.emplace_back(id, idEstablecimiento, nombre, descripcion, precio);
         }
         file.close();
     }
