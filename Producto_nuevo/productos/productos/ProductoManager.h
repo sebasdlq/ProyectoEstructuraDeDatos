@@ -2,21 +2,23 @@
 #define PRODUCTOMANAGER_H
 #include "Producto.h"
 #include <iostream>
-#include <vector>
 #include <string>
 using namespace std;
 
 class ProductoManager {
 private:
-    string filename;
+    string Archivo;
+    Producto pro;
 
 public:
-    ProductoManager(const string& filename);
-    bool agregarProducto(const Producto& producto);
+    ProductoManager(const string& Archi);
+    bool agregarProducto(ofstream& producto);
+    void guardardatos(int id, int idEst, double precio, string name, string descrip);
     bool modificarProducto(const Producto& producto);
     bool eliminarProducto(int id);
+    bool leer_archivo(ifstream& producto);
+    int getBytes();
     Producto buscarProductoPorId(int id);
-    vector<Producto> obtenerTodosProductos();
 };
 
 #endif // PRODUCTOMANAGER_H

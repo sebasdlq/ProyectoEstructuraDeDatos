@@ -22,7 +22,6 @@ private:
 public:
     ListaProductos(const string& filename);
     ~ListaProductos();
-
     void agregarProducto(const Producto& producto);
     void imprimirProductos() const;
     void modificarProducto(const Producto& producto);

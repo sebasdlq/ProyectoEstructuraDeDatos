@@ -11,7 +11,7 @@ private:
     string nombre;
     string descripcion;
     double precio;
-
+    char estado;
 public:
     Producto();
     Producto(int id, int idEstablecimiento, const string& nombre, const string& descripcion, double precio);
@@ -21,12 +21,14 @@ public:
     string getNombre() const;
     string getDescripcion() const;
     double getPrecio() const;
-
+    char getEstado()const;
+    void setgeneralP(int id, int idEstablecimiento, string nombre, string descripcion, double precio);
     void setId(int id);
     void setIdEstablecimiento(int idEstablecimiento);
     void setNombre(const string& nombre);
     void setDescripcion(const string& descripcion);
     void setPrecio(double precio);
+    void setEstado(char estat);
 };
 
 #endif // PRODUCTO_H
