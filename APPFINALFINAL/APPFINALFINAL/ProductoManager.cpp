@@ -23,7 +23,7 @@ bool ProductoManager::modificarProducto(const Producto& producto) {
         Producto temp;
         while (file.read(reinterpret_cast<char*>(&temp), sizeof(Producto))) {
             if (temp.getId() == producto.getId()) {
-                file.seekp(-sizeof(Producto), ios::cur);
+                file.seekp(sizeof(Producto), ios::cur);
                 file.write(reinterpret_cast<const char*>(&producto), sizeof(Producto));
                 file.close();
                 return true;

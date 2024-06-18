@@ -1,14 +1,6 @@
 #include "ListaProductos.h"
 #include <iostream>
-
-ListaProductos::ListaProductos(const string& filename) : cabeza(nullptr), filename(filename) {
-    ProductoManager productoManager(filename);
-    vector<Producto> productos = productoManager.obtenerTodosProductos();
-
-    for (const Producto& producto : productos) {
-        agregarProducto(producto);
-    }
-}
+ListaProductos::ListaProductos(const string& filename) : filename(filename) {}
 
 ListaProductos::~ListaProductos() {
     NodoProducto* actual = cabeza;
@@ -27,8 +19,10 @@ void ListaProductos::agregarProducto(const Producto& producto) {
 
 void ListaProductos::imprimirProductos() const {
     NodoProducto* actual = cabeza;
+    int n = 0;
     while (actual != nullptr) {
-        cout << "ID: " << actual->producto.getId() << ", Nombre: " << actual->producto.getNombre() << ", Precio: " << actual->producto.getPrecio() << endl;
+        n++;
+        cout << n << ".- ID:" << actual->producto.getId() << ", IDEsta:"<<actual->producto.getIdEstablecimiento() << ", Nombre: " << actual->producto.getNombre() << ", Precio: " << actual->producto.getPrecio() << ", Descrip:"<<actual->producto.getDescripcion()<<"\n";
         actual = actual->siguiente;
     }
 }
