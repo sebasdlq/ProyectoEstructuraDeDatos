@@ -1,6 +1,6 @@
 ﻿  Producto.cpp
   Productos.cpp
-C:\Users\HP\Desktop\sebas\Upsa\ProyectoEstructuraDeDatos\Producto\Producto\Productos.cpp(10,1): warning C4326: el tipo de valor devuelto de 'main' debe ser 'int' en lugar de 'void'
+C:\Users\pc\Desktop\ProyectoEstructuraDeDatos\Producto\Producto\Productos.cpp(7,1): warning C4326: el tipo de valor devuelto de 'main' debe ser 'int' en lugar de 'void'
   ABMProducto.cpp
   Generando código...
-  Producto.vcxproj -> C:\Users\HP\Desktop\sebas\Upsa\ProyectoEstructuraDeDatos\Producto\x64\Debug\Producto.exe
+  Producto.vcxproj -> C:\Users\pc\Desktop\ProyectoEstructuraDeDatos\Producto\x64\Debug\Producto.exe
