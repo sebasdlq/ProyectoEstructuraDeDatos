@@ -11,7 +11,8 @@ private:
     Producto pro;
 
 public:
-    ProductoManager(const string& Archi);
+    ProductoManager();
+    ProductoManager( string Archi);
     bool agregarProducto(ofstream& producto);
     void guardardatos(int id, int idEst, double precio, string name, string descrip);
     bool modificarProducto(const Producto& producto);

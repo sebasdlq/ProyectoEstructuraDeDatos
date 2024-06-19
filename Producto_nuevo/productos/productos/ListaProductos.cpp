@@ -1,23 +1,53 @@
 #include "ListaProductos.h"
+#include <fstream>
 #include <iostream>
-ListaProductos::ListaProductos(const string& filename) : filename(filename) {}
+
+    ListaProductos::ListaProductos(const string& filename1) { filename = filename1;}
 
 ListaProductos::~ListaProductos() {
-    NodoProducto* actual = cabeza;
+    /*NodoProducto* actual = cabeza;
     while (actual != nullptr) {
         NodoProducto* temp = actual;
         actual = actual->siguiente;
         delete temp;
-    }
+    }*/
 }
 
-void ListaProductos::agregarProducto(const Producto& producto) {
-    NodoProducto* nuevoNodo = new NodoProducto(producto);
+void ListaProductos::introducirDatos(ProductoManager* prod) {
+    int id, idEstablecimiento;
+    string nombre, descripcion;
+    double precio;
+
+    cout << "Ingrese ID del producto: ";
+    cin >> id;
+    cout << "Ingrese ID del establecimiento: ";
+    cin >> idEstablecimiento;
+    cin.ignore(); // Limpiar el buffer de entrada
+    cout << "Ingrese nombre del producto: ";
+    getline(cin, nombre);
+    cout << "Ingrese descripción del producto: ";
+    getline(cin, descripcion);
+    cout << "Ingrese precio del producto: ";
+    cin >> precio;
+    prod->guardardatos(id, idEstablecimiento, precio, nombre, descripcion);
+}
+
+void ListaProductos::agregarProducto() {
+   /* NodoProducto* nuevoNodo = new NodoProducto(producto);
     nuevoNodo->siguiente = cabeza;
-    cabeza = nuevoNodo;
+    cabeza = nuevoNodo;*/
+   /* ofstream fsalida(nomArchivo, ios::app | ios::binary);
+    cliente = new UsuarioManager(nomArchivo);
+    introducirDatos(cliente);
+    cliente->guardarUsuario(fsalida);
+    fsalida.close();*/
+    ofstream archivo(filename, ios::app | ios::binary);
+    cabeza = new ProductoManager(filename);
+    introducirDatos(cabeza);
+    cabeza->agregarProducto(archivo);
 }
 
-void ListaProductos::imprimirProductos() const {
+/*void ListaProductos::imprimirProductos() const {
     NodoProducto* actual = cabeza;
     int n = 0;
     while (actual != nullptr) {
@@ -76,9 +106,6 @@ Producto ListaProductos::buscarProductoPorId(int id) {
         actual = actual->siguiente;
     }
     cerr << "Producto no encontrado." << endl;
-    return Producto(); // Retorna un Producto vacío
-}
+    return Producto(); // Retorna un Producto vacío}*/
 
-NodoProducto* ListaProductos::getCabeza() const {
-    return cabeza;
-}
+

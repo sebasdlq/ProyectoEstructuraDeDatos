@@ -20,7 +20,7 @@ int main() {
         switch (op) {
         case 1: {
             // Capturar datos del nuevo producto
-            int id, idEstablecimiento;
+            /*int id, idEstablecimiento;
             string nombre, descripcion;
             double precio;
 
@@ -37,18 +37,18 @@ int main() {
             cin >> precio;
 
             // Crear un objeto Producto con los datos capturados
-            Producto nuevoProducto(id, idEstablecimiento, nombre, descripcion, precio);
+            Producto nuevoProducto(id, idEstablecimiento, nombre, descripcion, precio);*/
 
             // Agregar el producto a la lista
-            producto->agregarProducto(nuevoProducto);
+            producto->agregarProducto();
             break;
         }
         case 2: {
-            producto->imprimirProductos();
+            //producto->imprimirProductos();
             break;
         }
         case 3: {
-            // Modificar producto
+            /*// Modificar producto
             int idModificar;
             cout << "Ingrese ID del producto a modificar: ";
             cin >> idModificar;
@@ -82,10 +82,10 @@ int main() {
 
             // Modificar el producto en la lista y en el archivo
             producto->modificarProducto(productoModificar);
-            break;
+            break;*/
         }
         case 4: {
-            // Eliminar producto
+            /* Eliminar producto
             int idEliminar;
             cout << "Ingrese ID del producto a eliminar: ";
             cin >> idEliminar;
@@ -96,7 +96,7 @@ int main() {
             }
             else {
                 cerr << "No se pudo eliminar el producto." << endl;
-            }
+            }*/
             break;
         }
         case 0:

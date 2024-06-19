@@ -3,8 +3,9 @@
 #include <iostream>
 
 using namespace std;
+ProductoManager::ProductoManager() { Archivo = " "; }
 
-ProductoManager::ProductoManager(const string& Archi) { Archivo = Archi; }
+ProductoManager::ProductoManager(string Archi) { Archivo = Archi; }
 
 bool ProductoManager::agregarProducto(ofstream& producto) {
     ofstream file(Archivo, ios::binary | ios::app);
@@ -64,7 +65,7 @@ bool ProductoManager::leer_archivo(ifstream& producto){
 }
 
 bool ProductoManager::modificarProducto(const Producto& producto) {
-    fstream file(Archivo, ios::binary | ios::in | ios::out);
+    fstream file("Producto.dat", ios::binary | ios::in | ios::out);
     if (file.is_open()) {
         Producto temp;
         while (file.read(reinterpret_cast<char*>(&temp), sizeof(Producto))) {
